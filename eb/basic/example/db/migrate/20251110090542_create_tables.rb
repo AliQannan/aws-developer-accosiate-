@@ -4,10 +4,9 @@ class CreateTables < ActiveRecord::Migration[7.1]
       t.string :name
       t.timestamps
     end
-
-    Thing.create!(name: "Hello")
-    Thing.create!(name: "World")
-    Thing.create!(name: "Goodbye")
-    Thing.create!(name: "Moon")
+    Thing.create(name: "Hello ")
+    Thing.create(name: "World!")
+    Thing.create(name: "Goodbye ")
+    Thing.create(name:"moon! ")
   end
 end
