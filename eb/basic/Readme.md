@@ -46,5 +46,10 @@ git clone https://github.com/aws/aws-elastic-beanstalk-cli-setup.git
 python ./aws-elastic-beanstalk-cli-setup/scripts/ebcli_installer.py
 
 ## Package or EB
-
+```sh
 zip -r package.zip .
+```
+
+## ENV MUST LOAD IN EC2 INSTANCE   >> THE APPLICATION IN EC2 PUT IN /var/app/current
+
+
